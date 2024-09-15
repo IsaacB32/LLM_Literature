@@ -21,7 +21,6 @@ Question: How has the syntax and keywords in programming languages evolved over 
 - Paging & Segmentation
 
 ## Part 1 :: Answer the Question
-___
 >**_To limit the amount of long answers and AI hallucinations additional commands were given to the AI before asking the question here is the command that it was given:_** For this conversation I will be asking you a question about programming languages. You will respond in an attempt to answer this question using academic resources and references when possible. In general keep responses limited to at most five sentences. Do not make things up! Do not repeat yourself!
 
 **How has the syntax and keywords in programming languages evolved over time? How have newer programming languages changed their syntax?**
@@ -80,7 +79,6 @@ This efficiency was achieved by providing low-level access to system resources, 
 
 Modern languages, such as Python or Java, often trade some of this low-level efficiency for higher-level abstractions that improve developer productivity, code readability, and maintainability. For instance, Python handles memory management automatically via garbage collection and provides high-level constructs that simplify complex tasks but can introduce performance overhead compared to lower-level languages. These languages are designed to be more user-friendly and versatile, often at the cost of raw performance ([Van Rossum, G., *Python Tutorial*](https://dev.rbcafe.com/python/python-3.5.1-pdf/tutorial.pdf); [Bloch, J., *Effective Java*](https://books.google.com/books?hl=en&lr=&id=BIpDDwAAQBAJ&oi=fnd&pg=PT10&dq=Joshua+Bloch,+Effective+Java+-&ots=LyaKfbMY36&sig=ihahwrK6Lucx-eVrjv0QBbKTHcE#v=onepage&q=Joshua%20Bloch%2C%20Effective%20Java%20-&f=false)).
 
-___
 ## Part 2 :: Question Confusion 
 >At this point in my exploration of the topic I realized that the AI was interpreting this question in a way I hadn’t intented. The question I had in my head was one about how specific keywords have changed overtime, like how Assembly has mov, add, xor while Python has operators like + and function like print(). I wanted to learn about why these keywords changed as programming languages evolved. However, the answers I was getting from GPT were more about how and why entire new langauges were created and how they automated tasks for the programmers. This is something that I haden’t conciered when first drafting my question I had assumed that new programming languages were simply changing how code was displayed by using different keywords for different tasks. But the AI reminded me that modern languages are also automating a large number of tasks that older langauges made the programmer do. One of the first things we learn in CPSC 231 is that Java has an automatic garbage collector. In that class we don’t know enough about code or computers to know what that means and it isn’t until we get to C++ that we learn that the computer has to be told what to do with every value. It won’t just forget a variable unless we tell it to, and in Java the langauge and compiler was doing that for us. So when I asked the AI to explain how programming langauges had changed over time that is the answer it gave me, modern programming languages have abstracted tasks away from the user to allow for a higher level, more human readable, programming expereince.
 
@@ -103,7 +101,6 @@ The shift from low-level memory management to higher-level abstraction languages
 	- **Advanced Scheduling and Resource Management**: Operating systems have developed sophisticated scheduling algorithms and resource management techniques to efficiently allocate CPU time and other resources to different processes. These advancements allow high-level languages to rely on the OS for efficient multitasking and resource utilization, rather than requiring explicit management by the programmer ([Stallings, _Operating Systems: Internals and Design Principles_](https://dl.acm.org/doi/abs/10.5555/2012029)).
 
 ## Part 3 :: Operating System Interest 
-___
 >The mention of improvements in operating system interested me. In my classes I’ve learned about how program compilers and system memory have imporved to allow for more advanced operations but I’ve heard nothing about how imporvements in operating system have contributed to improvements in programming languages. This interested prompted the next line of questioning.
 ### ME
 explore the theory behind virtual memory
@@ -135,5 +132,4 @@ elaborate further on paging and segmentation
 _Paging and Segmentation Reference_ ([Patterson & Hennessy, _Computer Organization and Design: The Hardware/Software Interface_](https://books.google.com/books?hl=en&lr=&id=Pz-XCgAAQBAJ&oi=fnd&pg=PP1&dq=Patterson+%26+Hennessy,+_Computer+Organization+and+Design:+The+Hardware/Software+Interface_&ots=GcMb_msXeX&sig=cZIj-Isl7rwzE2DtEoi5PWfVJak#v=onepage&q=Patterson%20%26%20Hennessy%2C%20_Computer%20Organization%20and%20Design%3A%20The%20Hardware%2FSoftware%20Interface_&f=false))
 
 ## Conclusion
-___
 The evolution from low-level memory management to higher-level abstractions in programming languages reflects advancements in both hardware and software. Increased processing power has made it feasible for modern operating systems to handle complex memory management tasks like garbage collection, shifting the burden away from programmers. Virtual memory, utilizing techniques such as paging, allows for more efficient and flexible use of memory. These advancements have led to the development of high-level languages like Python, which prioritize readability and developer productivity over manual memory management. This transition demonstrates a balance between optimizing performance and enhancing readability of programming.
