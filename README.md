@@ -22,10 +22,10 @@ ___
 - Virtual Memory
 - Paging & Segmentation
 
->**_To limit the amount of long answers and AI hallucinations additional commands were given to the AI before asking the question here is the command that it was given:_** For this conversation I will be asking you a question about programming languages. You will respond in an attempt to answer this question using academic resources and references when possible. In general keep responses limited to at most five sentences. Do not make things up! Do not repeat yourself!
-
 ## Part 1 :: Answer the Question
 ___
+>**_To limit the amount of long answers and AI hallucinations additional commands were given to the AI before asking the question here is the command that it was given:_** For this conversation I will be asking you a question about programming languages. You will respond in an attempt to answer this question using academic resources and references when possible. In general keep responses limited to at most five sentences. Do not make things up! Do not repeat yourself!
+
 **How has the syntax and keywords in programming languages evolved over time? How have newer programming languages changed their syntax?**
 ### GPT
 The evolution of syntax and keywords in programming languages reflects a shift towards greater readability, expressiveness, and abstraction. Early languages like Fortran and Assembly used minimalistic syntax focused on machine efficiency, while languages like C introduced more structured control flow and data types.
