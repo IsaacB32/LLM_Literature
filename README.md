@@ -1,9 +1,8 @@
-Author: Isaac Browen
-LLM Model: **Chat-GPT 4o mini**
+Author: Isaac Browen <br>
+LLM Model: **Chat-GPT 4o mini** <br>
 Question: How has the syntax and keywords in programming languages evolved over time? How have newer programming languages changed their syntax?
 
 ## References <span style="font-size:16">(in order of apperance)</span>
-___
 - [Bjarne Stroustrup, _The C++ Programming Language_](https://cds.cern.ch/record/169940/files/cer-000081326.pdf); [Guido van Rossum, _Python Language Reference_](https://scicomp.ethz.ch/public/manual/Python/3.10.4/reference.pdf)
 - [Backus et al., 1957](https://dl.acm.org/doi/pdf/10.1145/960118.808380)
 - [Van Rossum, G., *Python Tutorial*](https://dev.rbcafe.com/python/python-3.5.1-pdf/tutorial.pdf)
@@ -15,7 +14,6 @@ ___
 - [Stallings, _Operating Systems: Internals and Design Principles_](https://dl.acm.org/doi/abs/10.5555/2012029)
 
 ## Concepts
-___
 - Early and Modern Programming Languages
 - Technological Advances
 - Operating System Features
